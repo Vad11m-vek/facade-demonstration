@@ -1,0 +1,51 @@
+.wrapper_page {
+	display: flex;
+}
+.img_wrapper {
+	position: relative;
+	width: 80%;
+	height: 440px;
+}
+.top {
+	position: absolute;
+	top: 0;
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+.wrapper_top_button {
+	width: 10%;
+	margin: 0 25px;
+	input{
+		display: block;
+		padding: 5px;
+		margin: 10px;
+	}
+	.yellow{
+		background-color: yellow;
+	}
+	.orangeLite{
+		background-color: rgb(255, 190, 92);
+	}
+	.orange{
+		background-color:orange;
+	}
+	.brown{
+		background-color: brown;
+	}
+	.light{
+		background-color: rgb(212, 206, 206);
+	}
+	.yellowLite{
+		background-color: yellow;
+	}
+	.blue{
+		background-color: blue;
+		color: white;
+	}
+	.black{
+		background-color: black;
+		color: white;
+	}
+}
